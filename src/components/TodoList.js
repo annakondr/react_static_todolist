@@ -12,17 +12,15 @@ const todoItemsList = [];
   return (
     <table>
       <thead>
-      <th>ToDoItem</th>
-      <th>User name</th>
-      <th>Completed</th>
+        <th>ToDoItem</th>
+        <th>User name</th>
+        <th>Completed</th>
       </thead>
       <tbody>
-      {todoItemsList}
+        {todoItemsList}
       </tbody>
     </table>
   )
-
-
 }
 
 export default TodoList;
